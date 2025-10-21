@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • Big Bunny Flying Trapeze</title>
+  <meta name="description" content="Contact forms and details.">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img src="/assets/img/logo-placeholder.jpg" alt="Big Bunny logo" width="40" height="40" />
+        <span>Big Bunny Flying Trapeze</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/classes.html">Classes</a></li>
+          <li><a href="/faqs.html">FAQs</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact</h1>
+      <p>Replace the form endpoint with your own (Formspree/Netlify).</p>
+    </div>
+  </section>
+  <section class="container">
+    <form class="form reveal" action="https://example.com/form" method="POST">
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Send</button>
+    </form>
+    <div class="contact-details reveal delay-1">
+      <h2>Other ways to reach us</h2>
+      <p><strong>Email:</strong> hello@example.com</p>
+      <p><strong>Instagram:</strong> @yourhandle</p>
+      <p><strong>Location:</strong> Your venue address.</p>
+    </div>
+  </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/img/logo-placeholder.jpg" alt="" width="28" height="28" />
+        <strong>Big Bunny Flying Trapeze</strong>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/sitemap.html">Sitemap</a>
+      </nav>
+      <p class="copyright">© 2025 Big Bunny Flying Trapeze</p>
+    </div>
+  </footer>
+</body>
+</html>
